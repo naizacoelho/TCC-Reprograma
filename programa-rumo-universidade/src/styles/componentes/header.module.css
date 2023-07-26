@@ -1,0 +1,33 @@
+.headerContainer {
+    display: flex;
+    gap: 14rem;
+    align-items: center;
+    width: 100%;
+    padding:  0.1rem 1.5rem;
+    background-color: lightgray;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+
+}
+
+.logo{
+    height: 90px;
+}
+
+.imgContainer{
+    height: 100px;
+}
+
+.menuContainer{
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+}
+
+.menuLink{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
