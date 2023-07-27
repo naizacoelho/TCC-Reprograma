@@ -1,0 +1,22 @@
+.imgContainer {
+    object-fit: cover;
+    max-height: 30rem;
+    width: 100%;
+}
+
+.carouselContainer{
+width: 80%;
+margin: 0 auto;
+
+}
+.captionContainer{
+    color: white;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.629);
+    border-radius: 10px;
+ font-weight: bold;
+}
+
+.link:hover{
+    color: rgb(164, 160, 160);
+}

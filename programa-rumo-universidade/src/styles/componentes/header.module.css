@@ -1,24 +1,26 @@
 .headerContainer {
     display: flex;
-    gap: 14rem;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
-    padding:  0.1rem 1.5rem;
-    background-color: lightgray;
+    padding:  0.2rem 1.5rem;
+    background-color: #CFE7F2;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 99;
+    color: #3A3F93;
 
 }
 
 .logo{
-    height: 90px;
+    height: 85px;
 }
 
 .imgContainer{
     height: 100px;
+    margin-bottom: -0.6rem;
 }
 
 .menuContainer{
@@ -29,5 +31,5 @@
 
 .menuLink{
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
