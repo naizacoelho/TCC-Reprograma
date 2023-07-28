@@ -1,0 +1,29 @@
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem  3rem;
+    justify-content: space-between;
+    height: 500px;
+    width: 350px;
+    background-image:  linear-gradient(rgba(65, 42, 241, 0.462),rgb(93, 27, 179));
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    color: white;
+}
+
+.avatarContainer{
+    height: 120px;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.avatarContainer img{
+    border-radius: 50%;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
