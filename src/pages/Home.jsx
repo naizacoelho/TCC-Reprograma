@@ -19,7 +19,7 @@ export default function Home() {
             <CCarouselCaption className={`d-none d-md-block ${styles.captionContainer}`}>
               <a className={styles.link} href='https://www.youtube.com/@projetorumoauniversidadepr500/videos' target='_blank'>
                 <h3>Aulas Remotas durante a Pandemia </h3>
-                <p>Em 2020 durante a Covid-19 o PRU manteve suas aulas de forma remotas, com chamadas no Google meet, as aulas podem ser assistidas
+                <p>Em 2020 durante a Covid-19 o PRU manteve suas aulas de forma remota, com chamadas no Google meet, as aulas podem ser assistidas
                   no canal do YouTube.
                 </p>
               </a>
