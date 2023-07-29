@@ -6,14 +6,14 @@ import { getDatabase } from "firebase/database"
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDp_HycWMjIROhj9g6jVKRtPRD-bbEC8N0",
-    authDomain: "programa-rumo-universidade.firebaseapp.com",
-    databaseURL: "https://programa-rumo-universidade-default-rtdb.firebaseio.com",
-    projectId: "programa-rumo-universidade",
-    storageBucket: "programa-rumo-universidade.appspot.com",
-    messagingSenderId: "733621631631",
-    appId: "1:733621631631:web:f3c6d18f4158a603a94efa",
-  };
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MENSSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID,
+  databaseURL: import.meta.env.VITE_DATABASE_URL,
+};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
