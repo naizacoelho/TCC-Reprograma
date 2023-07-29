@@ -1,4 +1,4 @@
-import styles from '../styles/pages/Informacoes.module.css'
+import styles from '../styles/pages/informacoes.module.css'
 import informar from '../assets/informar.jpg'
 
 export default function Informacoes() {
