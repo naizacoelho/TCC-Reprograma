@@ -67,7 +67,7 @@ export default function Footer() {
         </Drawer>
       </div>
       <div className={styles.footerBottom}>
-        <p>Copyright © 2023 Naíza Coelho. Todos os direitos reservados.</p>
+        <p>Copyright © 2023 Naíza Coelho. Feito com amor🫰🤍.</p>
       </div>
     </footer >
   )
