@@ -1,0 +1,73 @@
+.banner {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url("../../assets/ufpe.png");
+    background-size: cover;
+    height: 20rem;
+    width: 100%;
+    padding: 3rem 5rem;
+
+
+}
+
+.textBox {
+    color: white;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.771);
+    border-radius: 10px;
+    font-weight: bold;
+    width: 24rem;
+    display: flex;
+    font-size: 1.2rem;
+    font-family: 'Heebo', sans-serif !important;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #ECEBEB;
+    border-radius: 20px;
+
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    color:#3A3F93;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h2{
+    font-family: 'Heebo', sans-serif !important;
+    font-weight: bold;
+}
+
+.title img{
+    height: 70px;
+    width: 70px;
+
+}
+.textContainer p{
+    line-height: 1.7rem;
+    text-align: justify;
+}
+.link{
+    color:#3b3f94;
+    font-weight: bold;
+}
+
+.background{
+    background-image: url("../../assets/local.png");
+    display: flex;
+    flex-direction: column;
+    background-blend-mode: overlay;
+}
+
+.textContainer h3{
+color: #3A3F93;
+}

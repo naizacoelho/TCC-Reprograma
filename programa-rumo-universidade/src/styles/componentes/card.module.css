@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     padding: 2rem  3rem;
-    justify-content: space-between;
     height: 500px;
     width: 350px;
     background-image:  linear-gradient(rgba(65, 42, 241, 0.462),rgb(93, 27, 179));

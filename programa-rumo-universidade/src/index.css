@@ -16,3 +16,13 @@ main{
 li {
   list-style-type: none;
 }
+
+.carousel-control-prev-icon {
+  background-color: black;
+  border-radius: 50%;
+ }
+ 
+ .carousel-control-next-icon {
+   background-color: black;
+   border-radius: 50%;
+  }

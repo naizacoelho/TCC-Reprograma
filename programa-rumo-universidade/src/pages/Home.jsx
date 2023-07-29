@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <>
-      <main>
+      <main className={styles.background}>
         <CCarousel className={styles.carouselContainer} controls indicators interval={6000}>
           <CCarouselItem>
             <CImage className={`d-block ${styles.imgContainer}`} src="/src/assets/remoto.jpg" alt="Uma arte representando alunos em casa com seus computadores em aula Remota" />
