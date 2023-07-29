@@ -45,7 +45,7 @@ Meu objetivo com a criação deste Web-site é trazer visibilidade para uma inic
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
 ### Estrutura do projeto
-O site possue atualmente a seguinte estrutura: Home: tela inicial, História: Onde se pode conhecer o PRU, Informações: Aqui encontrará informações sobre matrícula e muito mais e Relatos: Nessa página os ex-estudantes poderam deixar seu relato sobre como foi sua experiência com o PRU. 
+O site possue atualmente a seguinte estrutura: Home: tela inicial, História: Onde se pode conhecer o PRU, Informações: Aqui encontrará informações sobre matrícula e muito mais e Relatos: Nessa página os ex-estudantes podem deixar seu relato sobre como foi sua experiência com o PRU. 
 
 [![][structure-photo]]()
 
