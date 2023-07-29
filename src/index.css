@@ -1,14 +1,14 @@
-*{
+* {
   font-family: 'Poppins', sans-serif;
- 
+
 }
 
-body{
+body {
   margin: 0;
 
 }
 
-main{
+main {
   margin-top: 95px;
   min-height: 70vh;
 }
@@ -20,9 +20,13 @@ li {
 .carousel-control-prev-icon {
   background-color: black;
   border-radius: 50%;
- }
- 
- .carousel-control-next-icon {
-   background-color: black;
-   border-radius: 50%;
-  }
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+}
+
+.carousel-inner {
+  border-radius: 0px 0px 15px 15px;
+}

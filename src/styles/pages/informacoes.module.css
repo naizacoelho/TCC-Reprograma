@@ -1,0 +1,39 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.infoContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.leftContainer p {
+    text-align: justify;
+}
+
+.imgContainer {
+    width: 36%;
+}
+
+.link {
+    color: #3A3F93;
+    text-decoration: none;
+}
+
+.leftContainer h2 {
+    color: #3b3f94;
+}
+
+.rightContainer h2 {
+    color: #3b3f94;
+}
+.content h1{
+    color: #3b3f94;
+}

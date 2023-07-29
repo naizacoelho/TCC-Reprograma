@@ -30,7 +30,7 @@ export default function Historia() {
 
             
             <h3>Apoio Psicopedagógico:</h3>
-            <p>Em 2019, conseguimos construir um núcleo de apoio pedagógico, com profissionais da psicologia atuando fortemente no auxílio emocional de nossos estudantes e da equipe docente.</p>
+            <p>Em 2019, o PRU conseguiu construir um núcleo de apoio pedagógico, com profissionais da psicologia atuando fortemente no auxílio emocional de nossos estudantes e da equipe docente.</p>
             <h3 className='mt-5'>Quer saber mais?</h3>
             <p>Para saber Informações como o meio de matrícula para o PRU  <Link to="/informacoes" className={styles.link}>clique aqui</Link> .</p>
           </div>

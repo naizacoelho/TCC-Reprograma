@@ -3,8 +3,8 @@
         linear-gradient(to right, rgba(20, 13, 112, 0.903), rgba(247, 134, 14, 0.684)),
         url('../../assets/relator-baner.png');
     background-repeat: repeat;
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -18,8 +18,8 @@ flex-direction: column;
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: left ;
-    padding-left:4rem ;
+    justify-content: left;
+    padding-left: 4rem;
     padding-right: 8rem;
     padding-top: 8rem;
     padding-bottom: 8rem;
@@ -41,30 +41,30 @@ flex-direction: column;
     padding: 2rem;
     margin: 3rem 0;
     box-shadow: rgba(54, 6, 200, 0.4) 5px 5px,
-     rgba(73, 36, 185, 0.3) 10px 10px, rgba(47, 33, 239, 0.2) 15px 15px,
-      rgba(86, 51, 199, 0.1) 20px 20px, rgba(16, 46, 144, 0.05) 25px 25px;
+        rgba(73, 36, 185, 0.3) 10px 10px, rgba(47, 33, 239, 0.2) 15px 15px,
+        rgba(86, 51, 199, 0.1) 20px 20px, rgba(16, 46, 144, 0.05) 25px 25px;
 }
 
-.form h4{
+.form h4 {
     font-family: 'Heebo', sans-serif !important;
     font-weight: bold;
 }
 
-.reportContainer{
+.reportContainer {
     display: flex;
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
     padding: 3rem;
     border-radius: 10px;
-    background-image: linear-gradient(rgba(99, 81, 240, 0.819),rgba(209, 119, 50, 0.688));
+    background-image: linear-gradient(rgba(99, 81, 240, 0.819), rgba(209, 119, 50, 0.688));
     margin-bottom: 4rem;
 }
 
-.title{
+.title {
     font-family: 'Heebo', sans-serif !important;
     font-weight: bold;
     color: white;
-    margin-bottom:4rem;
+    margin-bottom: 4rem;
     text-align: center;
 }

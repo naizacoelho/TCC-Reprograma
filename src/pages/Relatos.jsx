@@ -2,8 +2,6 @@ import styles from '../styles/pages/relatos.module.css'
 import { BsChatLeftHeart } from "react-icons/bs";
 import {
   Stack, FormControl, FormLabel,
-  FormErrorMessage,
-  FormHelperText,
   Input,
   Textarea,
   Button,
@@ -15,6 +13,7 @@ import imagem from '../assets/fotinha.jpg'
 import { useState, useEffect } from "react"
 import database from '../services/firebase'
 import { ref, push, set, get, child } from 'firebase/database'
+import meuAvatar from '../assets/naiza.jpeg'
 
 export default function Relatos() {
 
@@ -108,6 +107,9 @@ export default function Relatos() {
       <div className={styles.reportContainer}>
         <h2 className={styles.title}>Relatinhos dos PRUalunos😍</h2>
         <Grid templateColumns='repeat(3, 1fr)' gap={6}>
+          <Card nome="Naíza Coelho" descricao="Em 2017 eu fui aluna do PRU. Eu não poderia pagar um curso particular, lá conheci professores dedicados a uma causa tão altruísta, as aulas e as dinâmicas me deram o que eu precisava para conseguir a minha aprovação na UFPE. 
+        Me formei em 2022 e o PRU foi o auxiliador dessa conquista."
+            imagem={meuAvatar} />
           {
             relatoList.map((relato) => {
               return (
