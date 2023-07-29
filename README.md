@@ -57,7 +57,7 @@ O site possue atualmente a seguinte estrutura: Home: tela inicial, História: On
 * [![React Router][React-router]][React-router-url] : Usado para fazer o roteamento das páginas.
 * [![Chakra-UI][Chakra-ui]][Chakra-ui-url] : Biblioteca de componentes utilizada para alguns elementos do site.
 * [![Firebase][Firebase]][Firebase-url] : Utilizada ferramenta Realtime database para gravar e exibir os relatos.
-* [![Vercel][Vercel]][Vercel-url] : Utilizado para realizar do deploy do website.
+* [![Vercel][Vercel]][Vercel-url] : Utilizado para realizar o deploy do website.
 * [Vite][Vite-url] : Ferramenta utilizada para a criação da estrutura do site.
 * [CoreUI][CoreUI-url] : Biblioteca de componentes utilizada para exibir o carrossel.
 
